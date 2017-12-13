@@ -30,9 +30,10 @@ var findIt = function(e) {
     box.style.backgroundColor = "hsl(182,62%,"+l+"%)";
     if(isCloseEnough(mouseX,mouseY)){
 	box.style.backgroundColor = "black";
-	//box.textContent = "Ha You Got Me";
-	//box.style.textAlign = "center";
-	//box.style.textColor = "white";
+	box.textContent = "Ha You Got Me";
+	box.style.textAlign = "center";
+	box.style.color = "white";
+	box.style.fontSize = "250px";
     }
     else{
 	box.textContent = "";
