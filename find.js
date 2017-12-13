@@ -4,8 +4,8 @@ var boxWidth = box.offsetWidth;
 
 //hardcode target as center
 //randomize later
-var targetX = boxWidth/2;//Math.random() * boxWidth;
-var targetY = boxHeight/2;//Math.random() * boxHeight;
+var targetX = Math.random() * boxWidth;
+var targetY = Math.random() * boxHeight;
 
 console.log( "box height: " + boxHeight );
 console.log( "box width: " + boxWidth );
